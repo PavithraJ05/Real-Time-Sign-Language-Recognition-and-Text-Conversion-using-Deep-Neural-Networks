@@ -1,0 +1,68 @@
+{
+    "model_name": "hand_gesture_recognition",
+    "date_trained": "2025-03-21 13:25:36",
+    "number_of_classes": 42,
+    "labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "A",
+        "11": "B",
+        "12": "BYE",
+        "13": "C",
+        "14": "D",
+        "15": "DISLIKE",
+        "16": "E",
+        "17": "F",
+        "18": "G",
+        "19": "H",
+        "20": "HELLO",
+        "21": "I",
+        "22": "J",
+        "23": "K",
+        "24": "L",
+        "25": "LIKE",
+        "26": "M",
+        "27": "N",
+        "28": "NO",
+        "29": "O",
+        "30": "P",
+        "31": "Q",
+        "32": "R",
+        "33": "S",
+        "34": "T",
+        "35": "U",
+        "36": "V",
+        "37": "W",
+        "38": "X",
+        "39": "Y",
+        "40": "YES",
+        "41": "Z"
+    },
+    "input_shape": [
+        63
+    ],
+    "training_params": {
+        "epochs": 50,
+        "batch_size": 32,
+        "validation_split": 0.2
+    },
+    "training_results": {
+        "final_accuracy": 0.9475308656692505,
+        "final_val_accuracy": 0.9876543283462524,
+        "final_loss": 0.23981456458568573,
+        "final_val_loss": 0.11291436851024628
+    },
+    "preprocessing": {
+        "mediapipe_confidence": 0.5,
+        "num_landmarks": 21,
+        "coordinates_per_landmark": 3
+    }
+}
