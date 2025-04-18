@@ -1,4 +1,4 @@
-# Hand Gesture Text Input
+# Real-Time-Sign-Language-Recognition-and-Text-Conversion-using-Deep-Neural-Networks
 
 A real-time hand gesture recognition system that converts hand gestures into text input. Make hand gestures in front of your webcam to type letters!
 
