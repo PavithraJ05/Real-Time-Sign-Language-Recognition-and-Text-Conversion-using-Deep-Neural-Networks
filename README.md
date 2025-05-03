@@ -1,4 +1,4 @@
-# Hand Gesture Text Input
+# Real-Time-Sign-Language-Recognition-and-Text-Conversion-using-Deep-Neural-Networks
 
 A real-time hand gesture recognition system that converts hand gestures into text input. Make hand gestures in front of your webcam to type letters!
 
@@ -43,7 +43,7 @@ A real-time hand gesture recognition system that converts hand gestures into tex
 - Input: 63 normalized coordinates
 - Hidden Layer 1: 128 neurons (ReLU) with 30% dropout
 - Hidden Layer 2: 64 neurons (ReLU) with 20% dropout
-- Output: 26 classes (A-Z) with Softmax
+- Output: 42 classes with Softmax
 
 ### Streamlit App Flow
 1. Video Processing:
@@ -58,6 +58,9 @@ A real-time hand gesture recognition system that converts hand gestures into tex
    - Control buttons:
      - "Capture": Adds current gesture prediction to text
      - "Clear": Resets the text field
+     - "Backspace": Deletes the last character.
+     - "Space": Inserts a space between words.
+   -Users can download the recognized text as:  TXT file and PDF file 
 
 3. Real-time Processing:
    - Each frame goes through:
